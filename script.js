@@ -54,8 +54,8 @@ const addNewTask = () => {
   }
 };
 
-const enterCheck = () => {
-  if (event.keyCode === 13) {
+const enterCheck = (event) => {
+  if (event.key === "Enter") {
     addNewTask();
   }
 };
